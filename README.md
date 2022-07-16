@@ -6,6 +6,22 @@
 
 </h2>
 
+---
+## disable defender 
+ -  PUAProtection 
+ -  Automatic Sample Submission
+ -  Windows FireWall
+ -  Windows Smart Screen(Permanently)
+ -  Disable Quickscan
+ -  Add exe file  to exclusions in defender settings
+ -  Disable Defender Notification (Added Recently)
+ -  Disable UAC(Reboot Required)
+ -  Disable Ransomware Protection
+ -  Disable TaskManager
+ -  Disable registry etc..
+---
+
+
 - [Python](https://www.python.org/):
 
 ```python
