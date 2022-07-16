@@ -5,7 +5,6 @@
 ## Defender disabler 
 
 ---
----
 ## disable defender 
  -  PUAProtection 
  -  Automatic Sample Submission
